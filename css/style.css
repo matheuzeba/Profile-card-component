@@ -1,0 +1,11 @@
+/* FUNDO */
+
+body {
+    background: var(--dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: top -50vw left -50vw, bottom -40vw right -20vw;
+    background-repeat: no-repeat;
+    background-size: 100%, 70%;
+}
+
+/*  */
