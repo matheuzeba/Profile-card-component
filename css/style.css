@@ -17,7 +17,18 @@ body {
     height: 100vh;
 }
 
+/* Container */
+.page .container {
+    background: var(--white);
+}
+
 /* s-top */
+
+
+.page .s-top {
+    position: relative;
+    margin-bottom: 5rem;
+}
 
 .page .s-top .banner {
     max-width: 35rem;
@@ -25,5 +36,36 @@ body {
 
 .page .s-top .profile {
     max-width: 9.6rem;
+    position: absolute;
+    bottom: -3rem;
+    right: 12.5rem;
+    border-radius: 100%;
+    border: 0.5rem solid var(--white)
 }
 
+/* s-middle */
+
+.page .container .s-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.page .container .s-middle h1 span {
+    margin-left: 1.5rem;
+}
+
+/* s-bottom */
+
+.page .container .s-bottom {
+    padding: 3rem 0;
+}
+
+.page .container .s-bottom ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
