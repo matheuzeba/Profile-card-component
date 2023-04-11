@@ -1,5 +1,7 @@
 /* FUNDO */
 
+/* font-family: 'Kumbh Sans', sans-serif; */
+
 body {
     background: var(--dark-cyan);
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
@@ -20,6 +22,8 @@ body {
 /* Container */
 .page .container {
     background: var(--white);
+    overflow: hidden;
+    border-radius: 2rem;
 }
 
 /* s-top */
@@ -54,8 +58,11 @@ body {
     border-bottom: 1px solid #000;
 }
 
+
+
 .page .container .s-middle h1 span {
     margin-left: 1.5rem;
+    font-weight: 400;
 }
 
 /* s-bottom */
