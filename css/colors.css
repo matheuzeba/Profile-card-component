@@ -5,9 +5,17 @@
 }
 
 .page .container .s-middle h1 span,
-.page .container .s-bottom ul li h2 p {
+.page .container .s-middle p,
+.page .container .s-bottom ul li p {
     color: var(--Dark-grayish-blue);
-    font-weight: 700;
+}
+
+.page .container .s-bottom ul li h2 {
+    font-size: 2rem;
+}
+.page .container .s-middle p,
+.page .container .s-bottom ul li p {
+    font-size: 1.2rem;
 }
 
 
