@@ -69,3 +69,7 @@ body {
     justify-content: space-evenly;
     text-align: center;
 }
+
+.page .container .s-bottom ul li h2 {
+    margin-bottom: 0.5rem;
+}
