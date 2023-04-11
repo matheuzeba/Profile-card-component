@@ -8,4 +8,22 @@ body {
     background-size: 100%, 70%;
 }
 
-/*  */
+/* page */
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* s-top */
+
+.page .s-top .banner {
+    max-width: 35rem;
+}
+
+.page .s-top .profile {
+    max-width: 9.6rem;
+}
+
