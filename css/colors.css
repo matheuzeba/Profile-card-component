@@ -1,0 +1,13 @@
+.page .container .s-middle h1,
+.page .container .s-bottom ul li h2 {
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+}
+
+.page .container .s-middle h1 span,
+.page .container .s-bottom ul li h2 p {
+    color: var(--Dark-grayish-blue);
+    font-weight: 700;
+}
+
+
