@@ -10,6 +10,7 @@
     color: var(--Dark-grayish-blue);
 }
 
+.page .container .s-middle h1,
 .page .container .s-bottom ul li h2 {
     font-size: 2rem;
 }
